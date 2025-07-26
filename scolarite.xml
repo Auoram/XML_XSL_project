@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="scolarite.xsl"?>
+<scolarite>
+    <fillieres>
+        <filiere>
+            <idF>1</idF>
+            <nameF>MQL</nameF>
+        </filiere>
+        <filiere>
+            <idF>2</idF>
+            <nameF>M2I</nameF>
+        </filiere>
+    <filiere><idF>3</idF><nameF>M&#233;catronique</nameF></filiere></fillieres>
+    <etudiants>
+        <etudiant>
+            <idE>1</idE>
+            <nameE>Alae Ben Marzouq</nameE>
+            <email>alae12@example.com</email>
+            <classe_id>1</classe_id>
+        </etudiant>
+        <etudiant>
+            <idE>2</idE>
+            <nameE>Ali Slimani</nameE>
+            <email>ali56@gmail.com</email>
+            <classe_id>2</classe_id>
+        </etudiant>
+        <etudiant><idE>3</idE><nameE>Sara Harak</nameE><email>sara@gmail.com</email><classe_id>2</classe_id></etudiant>
+    </etudiants>
+</scolarite>

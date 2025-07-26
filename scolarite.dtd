@@ -1,0 +1,17 @@
+<!DOCTYPE scolarite [
+<!ELEMENT scolarite (fillieres, etudiants)>
+<!ELEMENT fillieres (filiere*)>
+<!ELEMENT filiere (nameF)>
+<!ATTLIST filiere idF ID #REQUIRED>
+
+<!ELEMENT etudiants (etudiant*)>
+<!ELEMENT etudiant (nameE, email)>
+<!ATTLIST etudiant idE ID #REQUIRED>
+<!ATTLIST etudiant classe_id IDREF #REQUIRED>
+
+<!ELEMENT nameF (#PCDATA)>
+<!ELEMENT nameE (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+]>
+
+<!-- We can see scolarite.xml using the command ( python -m http.server 8000 ) then we open your browser and go to http://localhost:8000/scolarite.xml might work only in some browsers -->
